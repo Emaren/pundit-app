@@ -27,7 +27,7 @@ RSpec.configure do |config|
   config.include FactoryGirl::Syntax::Methods
 
   # config.include Features, :type => :feature
-  # config.include Features::SessionHelpers, type: :feature
+  config.include Features::SessionHelpers, type: :feature
 
   # config.include Warden::Test::Helpers
   # config.before :suite do
